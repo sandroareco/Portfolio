@@ -1,0 +1,23 @@
+{
+    "profile": {
+        "idiom":"español",
+        "rol": "Soy Desarrollador de Software",
+        "cv":"Curriculum",
+        "title":"Sobre mi",
+        "title-description": "Diseñador y Desarrollador de Software",
+        "description":"Soy estudiante de Desarrollo de Software y de Inglés.<br> Apasionado de las nuevas tecnologías.<br> Me considero una persona proactiva que busca el aprendizaje y crecimiento continuo. Soy capaz de crear un buen ambiente laboral y de trabajar tanto grupal como individualmente.",
+        "skills":"Habilidades",
+        "learning":"Aprendiendo"
+    },
+    "project": {
+        "title-project":"Proyectos",
+        "title-card-one":"Biblioteca ISFT Nº232",
+        "description-card-one":"Solución integral para crear, eliminar, modificar y buscar libros",
+        "button-card":"Live",
+        "title-card-two":"ESNTLS Shop",
+        "description-card-two":"Tienda online enfocada en una interfaz intuitiva"
+    },
+    "contact": {
+        "title-contact":"Contacto"
+    }
+}

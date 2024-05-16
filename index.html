@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandro Areco</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header data-aos="fade-zoom-in" data-aos-delay="200">
+        <div class="container-language">
+            <div class="var-leng" id="var-leng">
+                <div id="languageButtons" data-language="en">
+                    <button id="changeToEN">EN</button>
+                </div>
+                <div id="languageButtons" data-language="es">
+                    <button id="changeToES">ES</button>
+                </div>
+            </div>
+            <p id="lengua" data-section="profile" data-value="idiom">English</p>
+        </div>
+        <div class="toggle-btn" id="_1st-toggle-btn">
+            <div class="switches">
+                <i class="bi bi-moon moon disabled"></i>
+                <i class="bi bi-sun sun"></i>
+            </div>
+        </div>
+    </header>
+    <!--HERO MAIN-->
+    <main id="hero">
+        <div class="wrapper">
+            <div class="container-name" data-aos="fade-zoom-in" data-aos-delay="200">
+                <h1 class="name">
+                    Sandro Areco 
+                </h1>
+                <p class="firstElement" data-section="profile" data-value="rol">
+                    I am a Software Developer
+                </p>
+                <div class="social-links">
+                    <a href="https://github.com/sandroareco" class="github" target="_blank">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sandroareco/" class="linkedin" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1itoZAHK8WD6J3HIuFGGH7A7kc9buHUPd/view?usp=sharing" class="resume" target="_blank">
+                        <i class="bi bi-file-earmark-person"></i>
+                        <p data-section="profile" data-value="cv">Resume</p>
+                    </a>
+                </div>
+            </div>
+            <div class="container-img" data-aos="fade-zoom-in" data-aos-delay="200">
+                <img src="./image/profile-dark.webp" class="img-fluid img-dark" alt="sandro_profile">
+                <img src="./image/profile-light.webp" class="img-fluid img-sun disabled" alt="sandro_profile">
+            </div>
+        </div>
+        <!--ABOUT SECTION-->
+        <section id="about" class="about">
+            <div data-aos="fade-zoom-in" data-aos-delay="200">
+                <div class="section-title">
+                    <h2 id="aboutTitle" data-section="profile" data-value="title">
+                        About
+                    </h2>
+                </div>
+            </div>
+            <div>
+                <article data-aos="fade-zoom-in" data-aos-delay="200">
+                    <h3 class="aboutTitle2" data-section="profile" data-value="title-description">Designer & Web Developer</h3>
+                    <p class="text-description" data-section="profile" data-value="description">
+                        I am a Software Developer student and English student.<br>
+                        Passionate about new technologies.<br>
+                        I consider myself a proactive person who is looking for continuous learning and growth.
+                        I am able to create a good work environment and working both in groups and individually.
+                    </p>
+                </article>
+                <article class="container-skills" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div>
+                        <h3 class="titleSkills" data-section="profile" data-value="skills">Skills</h3>
+                        <div class="">
+                            <div class="container-grid">
+                                <div class="skills" data-tooltip="HTML">
+                                    <img src="./image/html.webp" alt="html">
+                                </div>
+                                <div class="skills" data-tooltip="CSS">
+                                    <img src="./image/css.webp" alt="css">
+                                </div>
+                                <div class="skills" data-tooltip="Bootstrap">
+                                    <img src="./image/bootstrap.webp" alt="bootstrap">
+                                </div>
+                                <div class="skills" data-tooltip="SASS">
+                                    <img src="./image/sass.webp" alt="sass">
+                                </div>
+                                <div class="skills" data-tooltip="Tailwind">
+                                    <img src="./image/tailwind.webp" alt="tailwind">
+                                </div>
+                                <div class="skills" data-tooltip="JavaScript">
+                                    <img src="./image/js.webp" alt="js">
+                                </div>
+                                <div class="skills" data-tooltip="PHP">
+                                    <img src="./image/php.webp" alt="php">
+                                </div>
+                                <div class="skills" data-tooltip="SQL">
+                                    <img src="./image/SQL.webp" alt="sql">
+                                </div>
+                                <div class="skills" data-tooltip="Firebase">
+                                    <img src="./image/firebase.webp" alt="firebase">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="titleSkills title-learning" data-section="profile" data-value="learning">Learning</h3>
+                        <div class="container-grid">
+                            <div class="learning" data-tooltip="Java">
+                                <img src="./image/java-logo.webp" alt="java">
+                            </div>
+                            <div class="learning" data-tooltip="Spring Boot">
+                                <img src="./image/spring-boot.webp" alt="springboot">
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!--PROJECT SECTION-->
+        <section class="about-project" data-aos="fade-up" data-aos-duration="1000">
+            <div>
+                <div class="section-title title-project">
+                    <h2 data-section="project" data-value="title-project">
+                        Projects
+                    </h2>
+                </div>
+            </div>
+            <article class="card-article">
+                <div class="card-project">
+                    <img src="./image/biblioteca_ISFT_232.webp" alt="Biblioteca ISFT Nº232">
+                </div>    
+                <div class="card-info">
+                    <h5 class="card-title" data-section="project" data-value="title-card-one">Biblioteca ISFT Nº232</h5>
+                    <p class="text-description-project" data-section="project" data-value="description-card-one">
+                        Integral solution to create, delete, modify and search books
+                    </p>
+                    <div class="tecno-img">
+                        <img src="./image/html.webp" alt="HTML">
+                        <img src="./image/php.webp" alt="PHP">
+                        <img src="./image/SQL.webp" alt="SQL">
+                        <img src="./image/js.webp" alt="js">
+                        <img src="./image/bootstrap.webp" alt="bootstrap">
+                    </div>
+                    <div class="card-btn">
+                        <a href="https://www.sandroareco.com.ar/biblioteca/login.php" class="card-link" target="_blank">
+                            Live <i class="bi bi-link icon-link"></i>
+                        </a>
+                        <a href="https://github.com/sandroareco/Biblioteca" class="card-link card-link-code" target="_blank">
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article class="card-article">
+                <div class="card-project">
+                    <img src="./image/ESNTLS.webp" alt="ESNTLS Shop">
+                </div>
+                <div class="card-info">
+                    <h5 class="card-title-two" data-section="project" data-value="title-card-two">ESNTLS Shop</h5>
+                    <p class="text-description-project-two" data-section="project" data-value="description-card-two">
+                        Online store focused on an intuitive interface
+                    </p>
+                    <div class="tecno-img">
+                        <img src="./image/html.webp" alt="HTML">
+                        <img src="./image/css.webp" alt="CSS">
+                        <img src="./image/js.webp" alt="JavaScript">
+                    </div>
+                    <div class="card-btn">
+                        <a href="https://sandroareco.github.io/e-commerce-ESNTLS/" class="card-link card-link-two" target="_blank">
+                            Live <i class="bi bi-link icon-link-two"></i>
+                        </a>
+                        <a href="https://github.com/sandroareco/e-commerce-ESNTLS" class="card-link card-link-code-two" target="_blank">
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!--CONTACT SECTION-->
+        <section id="about" class="about-contact">
+            <div>
+                <div class="section-title title-proyect">
+                    <h2 data-section="contact" data-value="title-contact">
+                        Contact
+                    </h2>
+                </div>
+            </div>
+            <div class="contact">
+                <h2 class="email-title">Email <i class="bi bi-envelope icon-email"></i></h2>
+            </div>
+            <div class="email-redirec">
+                <input type="text" id="text-copy" class="email" value="sandro1998.areco@gmail.com" readonly>
+                <div class="email-icons">
+                    <div>
+                        <a href="mailto:sandro1998.areco@gmail.com" data-tooltip="send" class="email-contact" target="_blank">
+                            <i class="bi bi-send"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <button id="btn" data-tooltip="copy">
+                            <i class="bi bi-copy"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="social-links-foot">
+                <a href="https://github.com/sandroareco" class="github link-foot" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sandroareco/" class="linkedin link-foot-two" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+    <!--END HERO-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>

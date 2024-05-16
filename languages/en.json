@@ -1,0 +1,23 @@
+{
+    "profile": {
+        "idiom":"english",
+        "rol": "I am a Software Developer",
+        "cv":"Resume",
+        "title":"About",
+        "title-description":"Designer & Web Developer",
+        "description":"I am a Software Developer student and English student.<br> Passionate about new technologies.<br> I consider myself a proactive person who is looking for continuous learning and growth. I am able to create a good work environment and working both in groups and individually.",
+        "skills":"Skills",
+        "learning":"Learning"
+    },
+    "project": {
+        "title-project":"Projects",
+        "title-card-one":"Biblioteca ISFT Nº232",
+        "description-card-one":"Integral solution to create, delete, modify and search books",
+        "button-card":"Live",
+        "title-card-two":"ESNTLS Shop",
+        "description-card-two":"Online store focused on an intuitive interface"
+    },
+    "contact": {
+        "title-contact":"Contact"
+    }
+}
