@@ -11,11 +11,13 @@
     },
     "project": {
         "title-project":"Projects",
-        "title-card-one":"Biblioteca ISFT Nº232",
-        "description-card-one":"Integral solution to create, delete, modify and search books",
+        "title-card-one":"Private",
+        "description-card-one":"Private social network for job ideas, access only by the administrator's registration",
+        "title-card-two":"Biblioteca ISFT Nº232",
+        "description-card-two":"Integral solution to create, delete, modify and search books",
         "button-card":"Live",
-        "title-card-two":"ESNTLS Shop",
-        "description-card-two":"Online store focused on an intuitive interface"
+        "title-card-three":"ESNTLS Shop",
+        "description-card-three":"Online store focused on an intuitive interface"
     },
     "contact": {
         "title-contact":"Contact"

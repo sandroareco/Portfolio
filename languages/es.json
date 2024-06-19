@@ -11,11 +11,13 @@
     },
     "project": {
         "title-project":"Proyectos",
-        "title-card-one":"Biblioteca ISFT Nº232",
-        "description-card-one":"Solución integral para crear, eliminar, modificar y buscar libros",
+        "title-card-one":"Private",
+        "description-card-one":"Red social privada de ideas laborales, acceso solo por registro del administrador",
+        "title-card-two":"Biblioteca ISFT Nº232",
+        "description-card-two":"Solución integral para crear, eliminar, modificar y buscar libros",
         "button-card":"Live",
-        "title-card-two":"ESNTLS Shop",
-        "description-card-two":"Tienda online enfocada en una interfaz intuitiva"
+        "title-card-three":"ESNTLS Shop",
+        "description-card-three":"Tienda online enfocada en una interfaz intuitiva"
     },
     "contact": {
         "title-contact":"Contacto"

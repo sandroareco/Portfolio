@@ -386,6 +386,7 @@ header{
 }
 
 .card-title,
+.card-title-one,
 .card-title-two{
     font-size: 1.4rem;
     font-weight: bold;
@@ -393,11 +394,13 @@ header{
 }
 
 .card-title.active,
+.card-title-one.active,
 .card-title-two.active{
     color: var(--black);
 }
 
 .text-description-project,
+.text-description-project-one,
 .text-description-project-two{
     color: var(--light-white);
     font-size: 1rem;
@@ -405,6 +408,7 @@ header{
 }
 
 .text-description-project.active,
+.text-description-project-one.active,
 .text-description-project-two.active{
     color: var(--black)!important;
     font-weight: 600;
@@ -443,16 +447,20 @@ header{
 }
 
 .card-link.active,
+.card-link-one.active,
 .card-link-two.active,
 .card-link-code.active,
+.card-link-code-one.active,
 .card-link-code-two.active{
     background-color: #1c4b77;
     color: var(--light-white);
 }
 
 .card-link:hover.active,
+.card-link-one:hover.active,
 .card-link-two:hover.active,
 .card-link-code:hover.active,
+.card-link-code-one:hover.active,
 .card-link-code-two:hover.active{
     background-color:#0e385f;
 }
@@ -475,6 +483,7 @@ header{
 }
 
 .card-btn .icon-link.active,
+.card-btn .icon-link-one.active,
 .card-btn .icon-link-two.active{
     color: var(--light-white);
 }

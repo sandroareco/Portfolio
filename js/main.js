@@ -50,11 +50,16 @@ function toggleColorMode() {
     document.querySelector(".card-title").classList.toggle("active");
     document.querySelector(".text-description-project").classList.toggle("active");
     document.querySelector(".card-link").classList.toggle("active");
+    document.querySelector(".card-link-one").classList.toggle("active");
     document.querySelector(".icon-link").classList.toggle("active");
+    document.querySelector(".icon-link-one").classList.toggle("active");
+    document.querySelector(".card-title-one").classList.toggle("active");
     document.querySelector(".card-title-two").classList.toggle("active");
+    document.querySelector(".text-description-project-one").classList.toggle("active");
     document.querySelector(".text-description-project-two").classList.toggle("active");
     document.querySelector(".card-link-two").classList.toggle("active");
     document.querySelector(".card-link-code").classList.toggle("active");
+    document.querySelector(".card-link-code-one").classList.toggle("active");
     document.querySelector(".card-link-code-two").classList.toggle("active");
     document.querySelector(".icon-link-two").classList.toggle("active");
     document.querySelector(".email-title").classList.toggle("active");
