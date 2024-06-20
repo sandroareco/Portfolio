@@ -39,6 +39,7 @@ function toggleColorMode() {
     document.querySelector("#changeToES").classList.toggle("active");
     document.querySelector("#lengua").classList.toggle("active");
     document.querySelector(".name").classList.toggle("active");
+    document.querySelector(".alert-job").classList.toggle("active");
     document.querySelector(".github").classList.toggle("active");
     document.querySelector(".linkedin").classList.toggle("active");
     document.querySelector(".img-dark").classList.toggle("disabled");
